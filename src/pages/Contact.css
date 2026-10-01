@@ -1,0 +1,156 @@
+.contact-page {
+    background: #ffffff;
+}
+
+/* Hero */
+
+.contact-hero {
+    min-height: 450px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url("../assets/hero_img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.min-vh-50 {
+    min-height: 450px;
+}
+
+
+/* Contact Information */
+
+.contact-info-card {
+    height: 100%;
+
+    padding: 35px 25px;
+
+    background: #ffffff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s ease;
+}
+
+.contact-info-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+
+.contact-icon {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #e9f2ff;
+    color: #0d6efd;
+
+    font-size: 26px;
+}
+
+
+/* Contact Form */
+
+.contact-page .form-control,
+.contact-page .form-select {
+    min-height: 45px;
+
+    border: 1px solid #dee2e6;
+}
+
+.contact-page textarea.form-control {
+    min-height: auto;
+}
+
+.contact-page .form-control:focus,
+.contact-page .form-select:focus {
+    border-color: #0d6efd;
+
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.1);
+}
+
+
+/* Office Map */
+
+.office-map {
+    min-height: 230px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    background: #e9f2ff;
+
+    color: #0d6efd;
+}
+
+.office-map > i {
+    font-size: 50px;
+}
+
+.office-map h5 {
+    color: #212529;
+}
+
+
+/* FAQ */
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0d6efd;
+    background: #e9f2ff;
+}
+
+
+/* CTA */
+
+.contact-cta {
+    background: #0d6efd;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .contact-hero {
+        min-height: 400px;
+    }
+
+    .min-vh-50 {
+        min-height: 400px;
+    }
+
+    .contact-hero h1 {
+        font-size: 2.5rem;
+    }
+
+}

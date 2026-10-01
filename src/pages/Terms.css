@@ -1,0 +1,186 @@
+.terms-page {
+    background: #ffffff;
+}
+
+/* Hero */
+
+.terms-hero {
+    min-height: 430px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url("../assets/hero_img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.terms-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.terms-hero-content {
+    min-height: 430px;
+}
+
+
+/* Sidebar */
+
+.terms-sidebar {
+    top: 20px;
+
+    padding: 20px;
+
+    background: #f8f9fa;
+
+    border-radius: 10px;
+
+    border: 1px solid #e9ecef;
+}
+
+.terms-sidebar a {
+    display: block;
+
+    padding: 8px 0;
+
+    color: #6c757d;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    transition: 0.2s ease;
+}
+
+.terms-sidebar a:hover {
+    color: #0d6efd;
+
+    padding-left: 5px;
+}
+
+
+/* Content */
+
+.terms-content {
+    max-width: 850px;
+}
+
+.terms-content section {
+    margin-bottom: 45px;
+
+    scroll-margin-top: 30px;
+}
+
+.terms-content h2 {
+    font-size: 25px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+
+    color: #212529;
+}
+
+.terms-content p,
+.terms-content li {
+    color: #6c757d;
+
+    line-height: 1.8;
+}
+
+.terms-content ul {
+    padding-left: 25px;
+}
+
+.terms-content li {
+    margin-bottom: 8px;
+}
+
+
+/* Information Note */
+
+.terms-note {
+    margin-top: 20px;
+
+    padding: 15px 18px;
+
+    border-left: 4px solid #0d6efd;
+
+    background: #e9f2ff;
+
+    color: #495057;
+
+    border-radius: 5px;
+}
+
+
+/* Contact Box */
+
+.contact-box {
+    margin-top: 20px;
+
+    padding: 25px;
+
+    background: #f8f9fa;
+
+    border-radius: 10px;
+
+    border: 1px solid #e9ecef;
+}
+
+
+/* Footer CTA */
+
+.terms-footer {
+    margin-top: 50px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    background: #f8f9fa;
+
+    border-radius: 12px;
+
+    border: 1px solid #e9ecef;
+}
+
+
+/* Responsive */
+
+@media (max-width: 991px) {
+
+    .terms-sidebar {
+        position: static !important;
+    }
+
+    .terms-hero {
+        min-height: 380px;
+    }
+
+    .terms-hero-content {
+        min-height: 380px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .terms-hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .terms-content h2 {
+        font-size: 22px;
+    }
+
+    .terms-footer {
+        padding: 25px 15px;
+    }
+
+}

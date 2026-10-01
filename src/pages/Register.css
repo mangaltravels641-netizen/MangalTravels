@@ -1,0 +1,70 @@
+.register-page {
+    min-height: 100vh;
+    position: relative;
+
+    background-image: url("../assets/hero_img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.register-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.register-page .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+.register-card {
+    max-width: 650px;
+    margin: auto;
+}
+
+.register-logo {
+    width: 65px;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #0d6efd;
+    color: white;
+
+    font-size: 28px;
+}
+
+.register-card .form-control {
+    min-height: 45px;
+}
+
+.register-card .input-group-text {
+    min-width: 45px;
+    justify-content: center;
+}
+
+.register-card button {
+    transition: all 0.2s ease;
+}
+
+.register-card button:hover {
+    transform: translateY(-1px);
+}
+
+@media (max-width: 991px) {
+
+    .register-page {
+        background-position: center;
+    }
+
+    .register-card {
+        max-width: 500px;
+    }
+}
